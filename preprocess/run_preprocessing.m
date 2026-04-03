@@ -7,7 +7,7 @@ close all;
 targetRxn='EX_succ_e'; 
 
 loadedData  = load('..\data\iML1515.mat');
-model = loadedData.iML1515;
+model = loadedData.model;
 
 % get biomass reaction
 if isfield(model,'csense')
